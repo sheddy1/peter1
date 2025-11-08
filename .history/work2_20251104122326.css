@@ -1,0 +1,12 @@
+body{
+    background-color: #0A494C;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.login-box{
+    border: 1px solid #D9D9D9;
+    width: 400px;
+    height: 400px;
+}
