@@ -1,0 +1,67 @@
+body {
+    background-color: #0A494C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: inter;
+}
+
+.login-box {
+    border: 1px solid #D9D9D9;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.vector{
+    height: 40px;
+    width: 40px;
+}
+
+.mem{
+    color: #FFFFFF;
+    font-family: inter;
+    font-size: 30px;
+    ;
+}
+
+.text1{
+    width: 80%;
+    height: 40px;
+    color: #1E1E1E;
+}
+
+.btn1{
+    background-color: #026A79;
+    border: none;
+    width: 50%;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+text1{
+    color:#ffffff;
+    font-size: 15px;
+}
+
+/*  responsive design code */
+
+@media (max-width: 850px){
+    .login-box {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px){
+    .login-box {
+        width: 60%;
+    }
+}
